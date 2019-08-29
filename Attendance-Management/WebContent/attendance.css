@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+body{
+	margin: 0 auto;
+	background-image: url(attendance.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit:cover;
+	
+}
+.container{
+	width:500px;
+	height:400px;
+	text-align:center;
+	margin: 0 auto;
+ background-color:rgba(0, 0, 0,0.5);
+	margin-top:45px;
+	box-shadow: 0 0 20px 0 Gray;
+	border-radius:4px;
+}
+.container img{
+	width:130px;
+	height:130px;
+	margin-top:-40px;
+}
+input[type="text"],[type="password"]{
+	margin-top:30px;
+	width:300px;
+	height:45px;
+	font-size:18px;
+	margin-bottom:20px;
+	background-color: white;
+	padding-left:40px;
+	border-radius:24px;
+	border:2px solid black;
+	color:black;
+}
+textarea{
+	margin-top:30px;
+	width:300px;
+	height:45px;
+	font-size:18px;
+	margin-bottom:20px;
+	background-color: white;
+	padding-left:40px;
+	border-radius:24px;
+	border: 2px solid blue;
+	box-shadow: 0 0 20px 0 dodgerBlue;
+	color:yellow;
+}
+.container:hover
+{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	 background-color:rgba(170, 191, 212,0.5);
+	
+}
+.btn-submit7{
+		padding: 5px 150px 8px 8px;
+		font-size:22px;
+		border-radius:10px;
+		width:30px;
+		background-color: ;
+	    color: black;
+	    border: 2px solid black;
+}
+	.button{
+	margin-top:10px;
+	}
+.btn-login{
+	padding: 15px 20px;
+	border: none;
+	background-color:skyblue;
+	color:black;
+	border-radius:70px;
+}
+.form-input input:hover {
+  background-color:white;
+}
+.btn-submit5{
+	margin-top:2%;
+   margin-left:430px;
+	font-size:30px;
+	border-radius:10px;
+	width:33%;
+	 background-color: rgba(128, 255, 255,0.6);
+  color: black;
+  border: 2px solid gold;
+   
+}
+.button input:hover{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color:rgba(128, 255, 255,0.8);
+	  border: 2px solid gold;
+}
+
+.head1{
+	color:steelblue;
+}
+
+
+
